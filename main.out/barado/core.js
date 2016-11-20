@@ -635,7 +635,7 @@ return cljs.core._conj(cljs.core.List.EMPTY,x__8452__auto__);
 }),cljs.core.array_seq([label], 0));
 });})(map__27128,map__27128__$1,matches,lines,line,time_threshold,test,active_popper,data_timestamp,current_time,platform,station,stations,platforms,_STAR_reconciler_STAR_27123,_STAR_depth_STAR_27124,_STAR_shared_STAR_27125,_STAR_instrument_STAR_27126,_STAR_parent_STAR_27127,this$,this__19500__auto__,x27009_27135))
 ,barado.util.thresholds)], 0))], 0))], 0)),(cljs.core.truth_(cljs.core.cst$kw$platform_SLASH_data.cljs$core$IFn$_invoke$arity$1(platform))?(barado.platforms.platform_view.cljs$core$IFn$_invoke$arity$1 ? barado.platforms.platform_view.cljs$core$IFn$_invoke$arity$1(platform) : barado.platforms.platform_view.call(null,platform)):(((data_timestamp == null))?barado.core.main_loading():om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container v stack center"}),cljs.core.array_seq([om.dom.h2.cljs$core$IFn$_invoke$arity$variadic(null,cljs.core.array_seq(["Data Unavailable"], 0))], 0))
-))], 0)))], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "footer"}),cljs.core.array_seq(["Hello footer derp"], 0))], 0));
+))], 0)))], 0)),om.dom.footer.cljs$core$IFn$_invoke$arity$variadic(({}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container"}),cljs.core.array_seq(["Hello footer derp"], 0))], 0))], 0));
 }finally {om.next._STAR_parent_STAR_ = _STAR_parent_STAR_27127;
 
 om.next._STAR_instrument_STAR_ = _STAR_instrument_STAR_27126;
