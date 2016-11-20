@@ -242,10 +242,10 @@ return null;
 return goog.events.listen(G__27024,G__27025,G__27026);
 })()], null));
 
-var c__23983__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
-cljs.core.async.impl.dispatch.run(((function (c__23983__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135){
+var c__23954__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+cljs.core.async.impl.dispatch.run(((function (c__23954__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135){
 return (function (){
-var f__23984__auto__ = (function (){var switch__23857__auto__ = ((function (c__23983__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135){
+var f__23955__auto__ = (function (){var switch__23828__auto__ = ((function (c__23954__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135){
 return (function (state_27094){
 var state_val_27095 = (state_27094[(1)]);
 if((state_val_27095 === (7))){
@@ -466,34 +466,34 @@ return null;
 }
 }
 }
-});})(c__23983__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135))
+});})(c__23954__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135))
 ;
-return ((function (switch__23857__auto__,c__23983__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135){
+return ((function (switch__23828__auto__,c__23954__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135){
 return (function() {
-var barado$core$state_machine__23858__auto__ = null;
-var barado$core$state_machine__23858__auto____0 = (function (){
+var barado$core$state_machine__23829__auto__ = null;
+var barado$core$state_machine__23829__auto____0 = (function (){
 var statearr_27117 = [null,null,null,null,null,null,null,null,null,null,null,null,null];
-(statearr_27117[(0)] = barado$core$state_machine__23858__auto__);
+(statearr_27117[(0)] = barado$core$state_machine__23829__auto__);
 
 (statearr_27117[(1)] = (1));
 
 return statearr_27117;
 });
-var barado$core$state_machine__23858__auto____1 = (function (state_27094){
+var barado$core$state_machine__23829__auto____1 = (function (state_27094){
 while(true){
-var ret_value__23859__auto__ = (function (){try{while(true){
-var result__23860__auto__ = switch__23857__auto__(state_27094);
-if(cljs.core.keyword_identical_QMARK_(result__23860__auto__,cljs.core.cst$kw$recur)){
+var ret_value__23830__auto__ = (function (){try{while(true){
+var result__23831__auto__ = switch__23828__auto__(state_27094);
+if(cljs.core.keyword_identical_QMARK_(result__23831__auto__,cljs.core.cst$kw$recur)){
 continue;
 } else {
-return result__23860__auto__;
+return result__23831__auto__;
 }
 break;
 }
 }catch (e27118){if((e27118 instanceof Object)){
-var ex__23861__auto__ = e27118;
+var ex__23832__auto__ = e27118;
 var statearr_27119_27153 = state_27094;
-(statearr_27119_27153[(5)] = ex__23861__auto__);
+(statearr_27119_27153[(5)] = ex__23832__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_27094);
@@ -504,41 +504,41 @@ throw e27118;
 
 }
 }})();
-if(cljs.core.keyword_identical_QMARK_(ret_value__23859__auto__,cljs.core.cst$kw$recur)){
+if(cljs.core.keyword_identical_QMARK_(ret_value__23830__auto__,cljs.core.cst$kw$recur)){
 var G__27154 = state_27094;
 state_27094 = G__27154;
 continue;
 } else {
-return ret_value__23859__auto__;
+return ret_value__23830__auto__;
 }
 break;
 }
 });
-barado$core$state_machine__23858__auto__ = function(state_27094){
+barado$core$state_machine__23829__auto__ = function(state_27094){
 switch(arguments.length){
 case 0:
-return barado$core$state_machine__23858__auto____0.call(this);
+return barado$core$state_machine__23829__auto____0.call(this);
 case 1:
-return barado$core$state_machine__23858__auto____1.call(this,state_27094);
+return barado$core$state_machine__23829__auto____1.call(this,state_27094);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-barado$core$state_machine__23858__auto__.cljs$core$IFn$_invoke$arity$0 = barado$core$state_machine__23858__auto____0;
-barado$core$state_machine__23858__auto__.cljs$core$IFn$_invoke$arity$1 = barado$core$state_machine__23858__auto____1;
-return barado$core$state_machine__23858__auto__;
+barado$core$state_machine__23829__auto__.cljs$core$IFn$_invoke$arity$0 = barado$core$state_machine__23829__auto____0;
+barado$core$state_machine__23829__auto__.cljs$core$IFn$_invoke$arity$1 = barado$core$state_machine__23829__auto____1;
+return barado$core$state_machine__23829__auto__;
 })()
-;})(switch__23857__auto__,c__23983__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135))
+;})(switch__23828__auto__,c__23954__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135))
 })();
-var state__23985__auto__ = (function (){var statearr_27120 = (f__23984__auto__.cljs$core$IFn$_invoke$arity$0 ? f__23984__auto__.cljs$core$IFn$_invoke$arity$0() : f__23984__auto__.call(null));
-(statearr_27120[cljs.core.async.impl.ioc_helpers.USER_START_IDX] = c__23983__auto__);
+var state__23956__auto__ = (function (){var statearr_27120 = (f__23955__auto__.cljs$core$IFn$_invoke$arity$0 ? f__23955__auto__.cljs$core$IFn$_invoke$arity$0() : f__23955__auto__.call(null));
+(statearr_27120[cljs.core.async.impl.ioc_helpers.USER_START_IDX] = c__23954__auto__);
 
 return statearr_27120;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__23985__auto__);
-});})(c__23983__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135))
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__23956__auto__);
+});})(c__23954__auto__,map__27020,map__27020__$1,current_time,map__27021,map__27021__$1,kill_chan,init_second_offset,this$,indexer__19494__auto__,this__19493__auto__,x27009_27135))
 );
 
-return c__23983__auto__;
+return c__23954__auto__;
 });})(x27009_27135))
 ;
 
@@ -617,7 +617,7 @@ var platform = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__27128__$1,cljs.c
 var station = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__27128__$1,cljs.core.cst$kw$current_SLASH_station);
 var stations = cljs.core.cst$kw$line_SLASH_stations.cljs$core$IFn$_invoke$arity$1(line);
 var platforms = cljs.core.cst$kw$station_SLASH_platforms.cljs$core$IFn$_invoke$arity$1(station);
-return om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "v stacked guttered"}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "toolbar toolbar-main"}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container pad h stack center"}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "grow"}),cljs.core.array_seq(["Traincheck",om.dom.span.cljs$core$IFn$_invoke$arity$variadic(({"id": "beta", "className": "badge", "style": ({"marginLeft": "6px"})}),cljs.core.array_seq(["beta"], 0))], 0)),om.dom.span.cljs$core$IFn$_invoke$arity$variadic(null,cljs.core.array_seq([om.dom.span.cljs$core$IFn$_invoke$arity$variadic(({"className": "semi-transparent", "style": ({"marginRight": "6px"})}),cljs.core.array_seq(["A product of"], 0)),om.dom.a.cljs$core$IFn$_invoke$arity$variadic(({"href": "https://sakay.ph"}),cljs.core.array_seq(["Sakay.ph"], 0))], 0))], 0))], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "v stack gutters-lrg", "style": ({"marginBottom": "32px"})}),cljs.core.array_seq([barado.core.selector(this$,lines,line,stations,station,platforms,platform,active_popper),((cljs.core.not(platform))?barado.core.main_loading():om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container v stack center gutters"}),cljs.core.array_seq([om.dom.h1.cljs$core$IFn$_invoke$arity$variadic(({"id": "station-label"}),cljs.core.array_seq([cljs.core.cst$kw$station_SLASH_label.cljs$core$IFn$_invoke$arity$1(station)], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "h stack center"}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": [cljs.core.str("stack center gutters"),cljs.core.str((cljs.core.truth_(barado.util.mobile_QMARK_)?" v":" h"))].join('')}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "semi-transparent"}),cljs.core.array_seq(["Willing to wait for:"], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "button-group h stack"}),cljs.core.array_seq([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(((function (map__27128,map__27128__$1,matches,lines,line,time_threshold,test,active_popper,data_timestamp,current_time,platform,station,stations,platforms,_STAR_reconciler_STAR_27123,_STAR_depth_STAR_27124,_STAR_shared_STAR_27125,_STAR_instrument_STAR_27126,_STAR_parent_STAR_27127,this$,this__19500__auto__,x27009_27135){
+return om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "v stack guttered", "style": ({"minHeight": "100vh"})}),cljs.core.array_seq([om.dom.header.cljs$core$IFn$_invoke$arity$variadic(({}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container pad center"}),cljs.core.array_seq([om.dom.h1.cljs$core$IFn$_invoke$arity$variadic(({}),cljs.core.array_seq(["Traincheck",om.dom.span.cljs$core$IFn$_invoke$arity$variadic(({"style": ({"marginLeft": "6px", "fontSize": "0.45em", "fontWeight": "400", "textTransform": "uppercase"})}),cljs.core.array_seq(["beta"], 0))], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"style": ({"color": "rgba(255,255,255,0.5)"})}),cljs.core.array_seq(["Skip the lines. Commute smarter. ",om.dom.a.cljs$core$IFn$_invoke$arity$variadic(({"href": "#info"}),cljs.core.array_seq(["How?"], 0))], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"display": "block", "style": ({"marginTop": "3px"})}),cljs.core.array_seq([om.dom.span.cljs$core$IFn$_invoke$arity$variadic(({"style": ({"color": "rgba(255,255,255,0.5)"})}),cljs.core.array_seq(["A product of ",om.dom.a.cljs$core$IFn$_invoke$arity$variadic(({"href": "https://sakay.ph"}),cljs.core.array_seq(["Sakay.ph"], 0)),"."], 0))], 0))], 0))], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "v stack gutters-lrg grow", "style": ({"marginBottom": "32px"})}),cljs.core.array_seq([barado.core.selector(this$,lines,line,stations,station,platforms,platform,active_popper),((cljs.core.not(platform))?barado.core.main_loading():om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container v stack center gutters"}),cljs.core.array_seq([om.dom.h1.cljs$core$IFn$_invoke$arity$variadic(({"id": "station-label"}),cljs.core.array_seq([cljs.core.cst$kw$station_SLASH_label.cljs$core$IFn$_invoke$arity$1(station)], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "h stack center"}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": [cljs.core.str("stack center gutters"),cljs.core.str((cljs.core.truth_(barado.util.mobile_QMARK_)?" v":" h"))].join('')}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "semi-transparent"}),cljs.core.array_seq(["Willing to wait for:"], 0)),om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "button-group h stack"}),cljs.core.array_seq([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(((function (map__27128,map__27128__$1,matches,lines,line,time_threshold,test,active_popper,data_timestamp,current_time,platform,station,stations,platforms,_STAR_reconciler_STAR_27123,_STAR_depth_STAR_27124,_STAR_shared_STAR_27125,_STAR_instrument_STAR_27126,_STAR_parent_STAR_27127,this$,this__19500__auto__,x27009_27135){
 return (function (p__27130){
 var map__27131 = p__27130;
 var map__27131__$1 = ((((!((map__27131 == null)))?((((map__27131.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27131.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__27131):map__27131);
@@ -635,7 +635,7 @@ return cljs.core._conj(cljs.core.List.EMPTY,x__8452__auto__);
 }),cljs.core.array_seq([label], 0));
 });})(map__27128,map__27128__$1,matches,lines,line,time_threshold,test,active_popper,data_timestamp,current_time,platform,station,stations,platforms,_STAR_reconciler_STAR_27123,_STAR_depth_STAR_27124,_STAR_shared_STAR_27125,_STAR_instrument_STAR_27126,_STAR_parent_STAR_27127,this$,this__19500__auto__,x27009_27135))
 ,barado.util.thresholds)], 0))], 0))], 0)),(cljs.core.truth_(cljs.core.cst$kw$platform_SLASH_data.cljs$core$IFn$_invoke$arity$1(platform))?(barado.platforms.platform_view.cljs$core$IFn$_invoke$arity$1 ? barado.platforms.platform_view.cljs$core$IFn$_invoke$arity$1(platform) : barado.platforms.platform_view.call(null,platform)):(((data_timestamp == null))?barado.core.main_loading():om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container v stack center"}),cljs.core.array_seq([om.dom.h2.cljs$core$IFn$_invoke$arity$variadic(null,cljs.core.array_seq(["Data Unavailable"], 0))], 0))
-))], 0)))], 0)),om.dom.footer.cljs$core$IFn$_invoke$arity$variadic(({}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container"}),cljs.core.array_seq(["Hello footer derp"], 0))], 0))], 0));
+))], 0)))], 0)),om.dom.footer.cljs$core$IFn$_invoke$arity$variadic(({}),cljs.core.array_seq([om.dom.div.cljs$core$IFn$_invoke$arity$variadic(({"className": "container"}),cljs.core.array_seq([om.dom.section.cljs$core$IFn$_invoke$arity$variadic(({"id": "social", "className": "pad"}),cljs.core.array_seq(["[Tweet This] / [Facebook This]"], 0)),om.dom.section.cljs$core$IFn$_invoke$arity$variadic(({"id": "info", "className": "pad"}),cljs.core.array_seq(["Stop wasting time in lines. Traincheck\u2122 is a project by the team at Sakay.ph that shows you the perfect time to take the MRT. We predict when train stations are going to be crowded, so you can avoid the lines and crowds. It's also a part of our main app. ;) [How does it work?]"], 0)),om.dom.section.cljs$core$IFn$_invoke$arity$variadic(({"id": "plug", "className": "pad"}),cljs.core.array_seq(["Go beyond trains. Be better informed and get smarter directions with Sakay.ph. Our app knows buses, jeepneys, trains, shuttles, and soon: UV express. We do bus GPS tracking, incident reports, traffic modeling, and of course, train predictions. [App Store] / [Google Play]"], 0)),om.dom.section.cljs$core$IFn$_invoke$arity$variadic(({"id": "etc", "className": "pad"}),cljs.core.array_seq(["Copyright / FB / Twitter / Blog / email / Colophon / TOS"], 0))], 0))], 0))], 0));
 }finally {om.next._STAR_parent_STAR_ = _STAR_parent_STAR_27127;
 
 om.next._STAR_instrument_STAR_ = _STAR_instrument_STAR_27126;
