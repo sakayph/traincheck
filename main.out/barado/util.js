@@ -18,18 +18,18 @@ barado.util.time_formatter = cljs_time.format.formatter.cljs$core$IFn$_invoke$ar
 barado.util.safe_name_rate = cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.name,"no rating");
 barado.util.thresholds = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$value,(30),cljs.core.cst$kw$label,"30 mins"], null),new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$value,(60),cljs.core.cst$kw$label,"1 hr"], null),new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$value,(120),cljs.core.cst$kw$label,"2 hrs"], null)], null);
 barado.util.word_rate = (function barado$util$word_rate(val){
-var pred__22036 = cljs.core._GT__EQ_;
-var expr__22037 = val;
-if(cljs.core.truth_((pred__22036.cljs$core$IFn$_invoke$arity$2 ? pred__22036.cljs$core$IFn$_invoke$arity$2(0.2,expr__22037) : pred__22036.call(null,0.2,expr__22037)))){
+var pred__22087 = cljs.core._GT__EQ_;
+var expr__22088 = val;
+if(cljs.core.truth_((pred__22087.cljs$core$IFn$_invoke$arity$2 ? pred__22087.cljs$core$IFn$_invoke$arity$2(0.2,expr__22088) : pred__22087.call(null,0.2,expr__22088)))){
 return cljs.core.cst$kw$light;
 } else {
-if(cljs.core.truth_((pred__22036.cljs$core$IFn$_invoke$arity$2 ? pred__22036.cljs$core$IFn$_invoke$arity$2(0.4,expr__22037) : pred__22036.call(null,0.4,expr__22037)))){
+if(cljs.core.truth_((pred__22087.cljs$core$IFn$_invoke$arity$2 ? pred__22087.cljs$core$IFn$_invoke$arity$2(0.4,expr__22088) : pred__22087.call(null,0.4,expr__22088)))){
 return cljs.core.cst$kw$mid_DASH_light;
 } else {
-if(cljs.core.truth_((pred__22036.cljs$core$IFn$_invoke$arity$2 ? pred__22036.cljs$core$IFn$_invoke$arity$2(0.6,expr__22037) : pred__22036.call(null,0.6,expr__22037)))){
+if(cljs.core.truth_((pred__22087.cljs$core$IFn$_invoke$arity$2 ? pred__22087.cljs$core$IFn$_invoke$arity$2(0.6,expr__22088) : pred__22087.call(null,0.6,expr__22088)))){
 return cljs.core.cst$kw$medium;
 } else {
-if(cljs.core.truth_((pred__22036.cljs$core$IFn$_invoke$arity$2 ? pred__22036.cljs$core$IFn$_invoke$arity$2(0.8,expr__22037) : pred__22036.call(null,0.8,expr__22037)))){
+if(cljs.core.truth_((pred__22087.cljs$core$IFn$_invoke$arity$2 ? pred__22087.cljs$core$IFn$_invoke$arity$2(0.8,expr__22088) : pred__22087.call(null,0.8,expr__22088)))){
 return cljs.core.cst$kw$mid_DASH_heavy;
 } else {
 return cljs.core.cst$kw$heavy;
@@ -43,9 +43,9 @@ return cljs.core.cst$kw$heavy;
  */
 barado.util.timestamp__GT_minutes = (function barado$util$timestamp__GT_minutes(timestamp){
 if(cljs.core.truth_(timestamp)){
-var vec__22042 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs_time.core.hour,cljs_time.core.minute).call(null,timestamp);
-var hr = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22042,(0),null);
-var min = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22042,(1),null);
+var vec__22093 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs_time.core.hour,cljs_time.core.minute).call(null,timestamp);
+var hr = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22093,(0),null);
+var min = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22093,(1),null);
 return (((60) * hr) + min);
 } else {
 return null;
@@ -96,17 +96,17 @@ return and__7511__auto____$1;
 return and__7511__auto__;
 }
 })())){
-var bs = cljs.core.filterv((function (p__22050){
-var vec__22051 = p__22050;
-var mod = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22051,(0),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22051,(1),null);
+var bs = cljs.core.filterv((function (p__22101){
+var vec__22102 = p__22101;
+var mod = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22102,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__22102,(1),null);
 return (((from - (15)) <= mod)) && ((mod <= to));
 }),buckets);
 var best_bucket = cljs.core.last(cljs.core.first(cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$mean,cljs.core.last),bs)));
 var current_mean = cljs.core.cst$kw$mean.cljs$core$IFn$_invoke$arity$1(cljs.core.last(cljs.core.first(bs)));
 var best_mean = cljs.core.cst$kw$mean.cljs$core$IFn$_invoke$arity$1(best_bucket);
-var abs_diff = (function (){var G__22054 = (current_mean - best_mean);
-return Math.abs(G__22054);
+var abs_diff = (function (){var G__22105 = (current_mean - best_mean);
+return Math.abs(G__22105);
 })();
 if(((abs_diff >= delta_threshold)) && ((current_mean >= rating_threshold))){
 return best_bucket;
