@@ -19,7 +19,7 @@ throw (new Error("UUID literal expects a string as its representation."));
 }
 
 try{return cljs.core.uuid(form);
-}catch (e16722){var e = e16722;
+}catch (e17081){var e = e17081;
 throw (new Error(e.message));
 }});
 cljs.tagged_literals.read_inst = (function cljs$tagged_literals$read_inst(form){
@@ -29,7 +29,7 @@ throw (new Error("Instance literal expects a string for its timestamp."));
 }
 
 try{return cljs.reader.read_date(form);
-}catch (e16724){var e = e16724;
+}catch (e17083){var e = e17083;
 throw (new Error(e.message));
 }});
 cljs.tagged_literals.valid_js_literal_key_QMARK_ = (function cljs$tagged_literals$valid_js_literal_key_QMARK_(k){
