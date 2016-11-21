@@ -7,4 +7,4 @@ barado.theme.dark_accent = "#1e4d31";
 barado.theme.contrast = "#D64933";
 barado.theme.alt_contrast = "#0B7A75";
 barado.theme.light = "#f8f8f8";
-barado.theme.dark = "#023436";
+barado.theme.dark = "#2a1f1f";

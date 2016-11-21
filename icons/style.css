@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?55e37l');
-  src:  url('fonts/icomoon.eot?55e37l#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?55e37l') format('truetype'),
-    url('fonts/icomoon.woff?55e37l') format('woff'),
-    url('fonts/icomoon.svg?55e37l#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1590rl');
+  src:  url('fonts/icomoon.eot?1590rl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1590rl') format('truetype'),
+    url('fonts/icomoon.woff?1590rl') format('woff'),
+    url('fonts/icomoon.svg?1590rl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -54,5 +54,8 @@
 }
 .icon-android:before {
   content: "\eac0";
+}
+.icon-chrome:before {
+  content: "\ead9";
 }
 
