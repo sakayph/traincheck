@@ -804,7 +804,7 @@ barado.core.App.cljs$lang$ctorPrWriter = (function (this__19073__auto__,writer__
 return cljs.core._write(writer__19074__auto__,"barado.core/App");
 });
 barado.core.parser = om.next.parser(new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$read,barado.parser.read,cljs.core.cst$kw$mutate,barado.parser.mutate], null));
-barado.core.reconciler = om.next.reconciler(new cljs.core.PersistentArrayMap(null, 5, [cljs.core.cst$kw$parser,barado.core.parser,cljs.core.cst$kw$state,barado.core.init_app_state,cljs.core.cst$kw$send,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(barado.remotes.send,(function (){
+barado.core.reconciler = om.next.reconciler(new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$parser,barado.core.parser,cljs.core.cst$kw$state,barado.core.init_app_state,cljs.core.cst$kw$send,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(barado.remotes.send,(function (){
 return barado.core.reconciler;
-})),cljs.core.cst$kw$merge,barado.remotes.incorp,cljs.core.cst$kw$remotes,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$lines,cljs.core.cst$kw$line_DASH_data], null)], null));
+})),cljs.core.cst$kw$merge,barado.remotes.incorp,cljs.core.cst$kw$logger,false,cljs.core.cst$kw$remotes,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$lines,cljs.core.cst$kw$line_DASH_data], null)], null));
 om.next.add_root_BANG_.cljs$core$IFn$_invoke$arity$3(barado.core.reconciler,barado.core.App,goog.dom.getElement("app"));
